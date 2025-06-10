@@ -1,0 +1,36 @@
+*{
+    background-color: black;
+    color: white;
+    font-family: cursive;
+    font-size: large;
+}
+li.html#html{
+    background-color: violet;
+}
+#html.html{
+     background-color: rosybrown;
+}
+.html.html.html.html{
+    background-color: white;
+}
+#html{
+    background-color: blue;
+}
+#html{
+    background-color: hotpink;
+}
+li{
+    background-color: orange;
+}
+li{
+    background-color: green;
+}
+li{
+    background-color: aquamarine;
+}
+.html{
+    background-color: cadetblue;
+}
+.html{
+    background-color: yellow;
+}

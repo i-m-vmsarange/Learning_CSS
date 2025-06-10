@@ -59,7 +59,7 @@ p{
 .web p {
     background-color: cadetblue;
 }
-/* pseudo Selector */
-h1:hover{
+/* pseudo Selector */ 
+ h1:hover{
     color: blue;
 }
