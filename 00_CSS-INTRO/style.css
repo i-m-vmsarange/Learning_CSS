@@ -1,0 +1,65 @@
+*{
+    background-color: black;
+    color: white;
+    font-family: cursive;
+    font-size: large;
+}
+h1{
+    color : red;
+    font-weight: bold;
+    font-size: 30px;
+}
+h2{
+    font-weight: bold;
+    font-size: 35px;
+}
+p{
+    font-weight: bold;
+    font-size: 30px;
+}
+.html{
+    color:#e54d26;
+}
+.css{
+    color: #264ee4;
+}
+.Javascript{
+    color: #fdd942;
+}
+.react{
+    color: skyblue;
+}
+.tailwind{
+       color: #50d6ff;
+}
+#html{
+    font-size: 25px;
+}
+#css{
+    font-size: 25px;
+}
+#javascript{
+    font-size: 25px;
+}
+#tailwind{
+    font-size: 25px;
+}
+#react{
+  font-size: 25px;
+}
+[class]{
+    background-color: limegreen;
+}
+[id=anurag]{
+    background-color: teal;
+}
+[anurag]{
+    background-color: grey;
+}
+.web p {
+    background-color: cadetblue;
+}
+/* pseudo Selector */
+h1:hover{
+    color: blue;
+}
