@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+   <div class="container">
+    <h1 id="heading1">Placement Form</h1>
+   <hr id="hr-tag">
+   <h2 id="heading2">User Information</h2>
+   <form action="" id="payment-form">
+    <p >Name: * <input type="text" required placeholder="Enter your name" id="name-input"></p>
+   <fieldset id="fieldset">
+    <legend id="gender-legend">Gender *</legend>
+    <p id="gender-male" >Male : <input type="radio" name="gender" id="gender-male" required></p>
+    <p id="gender-female">Female :<input type="radio" name="gender"  required></p>
+   </fieldset>
+   <p style="margin-bottom:1px;" id="address-paragraph">
+    Address : </p><textarea name="address" id="address-textarea" rows="4" cols="20" placeholder="Enter your address"></textarea>
+
+   <p id="email-paragraph">Email : * <input type="email" name="email" id="email-input" placeholder="jhon11@gmail.com"></p>
+   <p id="pincode-paragraph">Pincode : * <input type="number" name="number" id="pincode-input" placeholder="Enter pincode"></p>
+  <hr id="hr-tag">
+   <h2 id="paymentinfo-heading">Payment Information</h2>
+   <p id="card-type-paragraph">Card Type : * <select name="" id="select-tag">
+   <option value="#" disabled selected>--Select a card type--</option>
+   <option value="">Mastercard</option>
+   <option value="">Visa</option>
+   <option value="">Rupay</option>
+   </select></p>
+   <p id="card-number-paragraph">Card Number : * <input type="number" name="" id="card-number-input" placeholder="Enter card number"></p>
+   <p id="date-paragraph">Expiration Date : * <input type="date" name="" id="date-input"></p>
+   <p id="cvv-paragraph">CVV : * <input placeholder="******" type="password" name="" id="cvv-input"></p>
+   <button type="submit" value="Pay Now">Pay Now</button>
+   </form>
+   </div>
+</body>
+</html>
