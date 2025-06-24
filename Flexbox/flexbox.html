@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning | Flexbox</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 0 20px 30px 0;
+            font-size: 20px;
+            line-height: 1.4;
+        }
+        .flex-item{
+
+            width: 75px;
+            height: 75px;
+            background-color: lightskyblue;
+            text-align: center;
+            border: 2px solid darkblue;
+            color: white;
+            font-size: 2em;
+            font-weight: bold;
+            line-height: 1.4;
+        }
+        
+        
+        #flex-container{
+            display: flex;
+            width: 100%;
+            height: 500px;
+            border: 2px solid black;
+            /* flex-direction: column-reverse; */
+            flex-wrap: wrap;
+            align-content: space-between;
+            
+        }
+        #flex-item-1{
+            background-color: lightpink;
+        }
+        #flex-item-2{
+            background-color: skyblue;
+        }
+        #flex-item-3{
+            background-color: lightgreen;
+        }
+        #flex-item-4{
+            background-color: burlywood;
+        }
+        #flex-item-5{
+            background-color: lightcoral;
+        }
+        .flex-container-2{
+            display: flex;
+            width: 100%;
+            height: 100px;
+            border: 1px solid black;
+            margin: 5px;
+        }
+        .dabba-item{
+            width: 100px;
+           border: 1px solid blue;
+            color: white;
+            margin: 5px;
+            text-align: center;
+            border-radius: 5px;
+           display: flex;
+           align-items: center;
+           justify-content: center;
+           font-weight: bold;
+          
+        }
+        #dabba-1{
+            
+            background-color: skyblue;
+           
+        }
+        #dabba-2{
+
+            background-color: burlywood;
+          
+        }
+        #dabba-3{
+
+            background-color: coral;
+        }
+        #dabba-4{
+
+            background-color: lightgreen;
+        }
+        #dabba-5{
+
+            background-color: lightpink;
+        }
+    </style>
+</head>
+<body>
+    <div id="flex-container">
+        <div id="flex-item-1"  class="flex-item">1</div>
+        <div id="flex-item-2" class="flex-item">2</div>
+        <div id="flex-item-3" class="flex-item">3</div>
+        <div id="flex-item-4" class="flex-item">4</div>
+        <div id="flex-item-5" class="flex-item">5</div>
+        <div id="flex-item-6" class="flex-item">6</div>
+        <div id="flex-item-7" class="flex-item">7</div>
+        <div id="flex-item-8" class="flex-item">8</div>
+        <div id="flex-item-9" class="flex-item">9</div>
+        <div id="flex-item-10" class="flex-item">10</div>
+    </div>
+    <div class="flex-container-2">
+        <div class="dabba-item" id="dabba-1">Dabba 1</div>
+        <div class="dabba-item" id="dabba-2">Dabba 2</div>
+        <div class="dabba-item" id="dabba-3">Dabba 3</div>
+        <div class="dabba-item" id="dabba-4">Dabba 4</div>
+        <div class="dabba-item" id="dabba-5">Dabba 5</div>
+    </div>
+</body>
+</html>
