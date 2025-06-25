@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Challenge | 3</title>
+    <style>
+        body{
+            width: 100%;
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+
+            width: 100%;
+            height: 100%;
+            display: flex;
+            font-size: 25px;
+            overflow: hidden;
+        }
+        .container-child-1{
+
+            width: 20%;
+            height: 100%;
+            background-color: darkseagreen;
+            padding: 20px;
+        }
+        .container-child-2{
+            width: 80%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+          
+        }
+       .container-child-2-1,.container-child-2-3{
+
+                height: 25%;
+                background-color: greenyellow;
+                  padding: 20px;
+        }
+        .container-child-2-2{
+            height: 50%;
+            background-color: whitesmoke;
+              padding: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="container-child-1">
+            <nav id="nav">Nav</nav>
+        </div>
+        <div class="container-child-2">
+            <div class="container-child-2-1">
+                <header id="header">Header</header>
+            </div>
+            <div class="container-child-2-2">
+                <article id="article">Article</article>
+            </div>
+            <div class="container-child-2-3">
+                <footer id="footer">Footer</footer>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
