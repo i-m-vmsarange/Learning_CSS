@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #ccc;
+    font-family: 14px Georgia, 'Times New Roman', Times, serif;
+
+}
+article,
+aside,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+h2{
+    font: 24px georgia;
+}
+h3{
+    margin: 0 0 8px 0;
+}
+p{
+    margin: 0 0 20px 0;
+}
+#fluid-wrap{
+ 
+    width: 70%;
+    margin: 60px auto;
+    padding: 20px;
+    background-color: #eee;
+    overflow: hidden;
+}
+#sidebar{
+    width:35%;
+    float: left;
+}
+#sidebar ul{
+    list-style: none;
+}
+#sidebar ul li a{
+
+    color: #904;
+    text-decoration-line: none;
+    padding: 3px 0;
+    display: block;
+}
+
+@media all and (min-width:1001px){
+
+    #sidebar ul li a:after{
+
+    content: " ("attr(data-email)")";
+    color: #666;
+    font-size: 14px;
+    font-style: italic;
+}     
+}
+@media all and (max-width:1000px) and (min-width:700){
+
+    #sidebar ul li a:before{
+
+    content: "Email : ";
+    color: #666;
+    font-size: 14px;
+    font-style: italic;
+}
+        
+     
+}
+
+
+
+
+
+#main-content{
+    width: 65%;
+    float: right;
+}
