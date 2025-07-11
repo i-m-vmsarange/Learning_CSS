@@ -1,0 +1,11 @@
+
+.background{
+
+  background-image: url("greenimg.jpg");
+  width:1000px;
+  height: 1000px;
+  background-repeat: no-repeat;
+  background-size: 1000px;
+   background-attachment: fixed; 
+  /* background-position: center ; */
+}
